@@ -59,6 +59,11 @@ p{margin:0 0 1rem;max-width:62ch}
 .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem}
 .skills h3{font:600 1rem var(--body);margin:0 0 .4rem}
 .skills ul{margin:0;padding:0;list-style:none;color:var(--muted)}
+.certs{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.certs li{display:flex;justify-content:space-between;gap:1.5rem;padding:1rem 0;border-bottom:1px solid var(--line)}
+.certs strong{font-weight:600}
+.certs span{color:var(--muted);font-size:.9rem;white-space:nowrap}
+.btns{display:flex;gap:.75rem;flex-wrap:wrap}
 .cta{display:inline-block;background:var(--ink);color:var(--bg);padding:.8rem 1.4rem;border-radius:8px;font-weight:600;text-decoration:none}
 .cta:hover{background:var(--accent);color:#fff}
 footer{color:var(--muted);font-size:.9rem}
@@ -83,6 +88,7 @@ footer{color:var(--muted);font-size:.9rem}
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -104,8 +110,8 @@ footer{color:var(--muted);font-size:.9rem}
       <h2>Projects</h2>
       <ul class="projects">
         <li class="project">
-           <h3><a href="https://verispace.mcdir.me" target="_blank" rel="noopener">VeriSpace Baguio</a></h3>
-          <span class="year">2026 – 2027</span>
+          <h3><a href="https://verispace.mcdir.me" target="_blank" rel="noopener">VeriSpace Baguio</a></h3>
+          <span class="year">2026 – now</span>
           <p>My capstone project: a centralized rental and leasing platform that connects tenants and property owners in a more organized and secure way. I've worked on the system requirements, business model, architecture, and security concepts, and I'm exploring identity verification, OCR, online payments, and secure transactions.</p>
           <ul class="stack"><li>System analysis and design</li><li>Identity verification</li><li>OCR</li><li>Online payments</li></ul>
         </li>
@@ -127,10 +133,23 @@ footer{color:var(--muted);font-size:.9rem}
       </div>
     </section>
 
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul class="certs">
+        <li><strong>Certificate of Appreciation: Tabulation</strong><span>March 2025</span></li>
+        <li><strong>Filipino Brand of Service Excellence</strong><span>November 2025</span></li>
+        <li><strong>Maintaining a Competitive Edge in this AI Landscape</strong><span>February 2026</span></li>
+        <li><strong>CodeFest: Tagisan ng Talino</strong><span>March 2026</span></li>
+        <li><strong>Philippine StartUp Challenge</strong><span>October 2026</span></li>
+      </ul>
+    </section>
+
     <section id="contact">
       <h2>Contact</h2>
-      <p>Open to internships and entry-level opportunities. Send me an email and I'll get back to you.</p>
-      <a class="cta" href="https://mail.google.com/mail/?view=cm&to=naveecnal@gmail.com" target="_blank" rel="noopener">naveecnal@gmail.com</a>
+      <p>Open to internships and entry-level opportunities. Reach me at:</p>
+      <div class="btns">
+        <a class="cta" href="https://mail.google.com/mail/?view=cm&to=naveecnal@gmail.com" target="_blank" rel="noopener">naveecnal@gmail.com</a>
+      </div>
     </section>
 
     <footer>&copy; <span id="yr">2026</span> Evan Lance B. Germar</footer>
